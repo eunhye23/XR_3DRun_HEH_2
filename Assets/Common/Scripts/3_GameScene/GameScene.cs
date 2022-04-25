@@ -50,7 +50,7 @@ public class GameScene : HSingleton<GameScene>
 
     private void Awake()
     {
-        itemctrl = GameObject.FindGameObjectWithTag("Items").GetComponent<ItemCtrl>();
+        //itemctrl = GameObject.FindGameObjectWithTag("Items").GetComponent<ItemCtrl>();
     }
     private void Start()
     {

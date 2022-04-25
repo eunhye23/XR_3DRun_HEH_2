@@ -55,8 +55,8 @@ public class PlayerCtrl : MonoBehaviour
     private Slider hpbar;
 
 
-    public float maxHp = 100;
-    public float curHp = 100;
+    public float maxHp = 500;
+    public float curHp = 500;
 
     
     private void Awake()
@@ -241,7 +241,7 @@ public class PlayerCtrl : MonoBehaviour
             {
                 mesh.material.color = Color.white;
             }
-            movement.moveSpeed = 30;
+            movement.moveSpeed = 35f;
         }
 
     }

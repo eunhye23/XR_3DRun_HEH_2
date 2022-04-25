@@ -54,7 +54,7 @@ public class Item_Collection : MonoBehaviour
     {
         if (player.curHp < player.maxHp)
         {
-            player.curHp = 100;
+            player.curHp = 200;
         }
     }
 
@@ -81,7 +81,7 @@ public class Item_Collection : MonoBehaviour
 
     IEnumerator PowerUpCoroution()
     {
-        touchmove.moveSpeed = 60f;
+        touchmove.moveSpeed = 70f;
         bPowerUp = true;
         powerUp_Img.SetActive(true);
         player.capsuleCol.enabled = false;
@@ -92,7 +92,7 @@ public class Item_Collection : MonoBehaviour
         powerUp_Img.SetActive(false);
 
         bPowerUp = false;
-        touchmove.moveSpeed = 30f;
+        touchmove.moveSpeed = 35f;
     }
 
 }
